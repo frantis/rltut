@@ -137,7 +137,7 @@ function initActors() {
 
 function drawActors() {
         for (var a in actorList) {
-                if (actorList[a].hp > 0)
+                if (actorList[a] != null && actorList[a].hp > 0)
                         asciidisplay[actorList[a].y][actorList[a].x].content = a == 0?''+player.hp:'e';
         }
 }

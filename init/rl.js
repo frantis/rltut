@@ -1,5 +1,5 @@
 // font size
-var FONT = 32;
+var FONT = 100;
  
 // map dimensions
 var ROWS = 10;
